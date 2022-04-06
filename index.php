@@ -4,6 +4,10 @@
     if ($_GET["addr"] == "post"){
         \KDS\MyBlog\Controllers\MBPost::getPost($_GET["id"]);
     }
+    elseif ($_GET["addr"] == "test")
+    {
+        include_once 'src/views/templates/test_page.php';
+    }
     elseif ($_GET["addr"] == "404")
     {
         \KDS\MyBlog\Views\MBView::sendError(404);

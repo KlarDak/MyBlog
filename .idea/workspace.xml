@@ -15,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -49,11 +50,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/templates" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\MyBlog.local\src\views\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\MyBlog.local\src\views" />
       <recent name="C:\OpenServer\domains\MyBlog.local\src" />
@@ -73,7 +78,7 @@
       <workItem from="1648078258819" duration="18102000" />
       <workItem from="1648422911181" duration="74135000" />
       <workItem from="1649273843047" duration="1516000" />
-      <workItem from="1649275380874" duration="1052000" />
+      <workItem from="1649275380874" duration="5401000" />
     </task>
     <task id="LOCAL-00001" summary="Просто небольшая реализация ядра">
       <created>1649275221986</created>
