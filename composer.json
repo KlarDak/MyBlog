@@ -14,5 +14,7 @@
             "email": "me@mail.klardaksdiary.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-pdo": "*"
+    }
 }

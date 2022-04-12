@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79e28ee3-b5aa-48eb-961b-a477d6366d7a" name="Changes" comment="Просто небольшая реализация ядра" />
+    <list default="true" id="79e28ee3-b5aa-48eb-961b-a477d6366d7a" name="Changes" comment="Просто небольшая реализация ядра">
+      <change afterPath="$PROJECT_DIR$/COMMANDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/MBVError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/templates/error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/media-mobile.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/media-mobile.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/MBController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/MBController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/MBPost.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MBMPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MBMPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MBVPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MBVPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/MBView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/MBView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/templates/error_404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/templates/post_page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/templates/test_page.php" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +50,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="39f883b4-b4dc-4923-8287-7b668816fe31" />
+        <option name="url" value="https://github.com/KlarDak/MyBlog.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,7 +107,12 @@
       <workItem from="1648078258819" duration="18102000" />
       <workItem from="1648422911181" duration="74135000" />
       <workItem from="1649273843047" duration="1516000" />
-      <workItem from="1649275380874" duration="20848000" />
+      <workItem from="1649275380874" duration="58483000" />
+      <workItem from="1649627624482" duration="19082000" />
+      <workItem from="1649690308471" duration="22000" />
+      <workItem from="1649690346008" duration="134000" />
+      <workItem from="1649690484428" duration="175000" />
+      <workItem from="1649690675422" duration="21457000" />
     </task>
     <task id="LOCAL-00001" summary="Просто небольшая реализация ядра">
       <created>1649275221986</created>
@@ -102,6 +136,17 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>

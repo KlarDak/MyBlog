@@ -10,7 +10,7 @@ body {
 }
 
 div#content {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 div#content h1 {
@@ -40,6 +40,9 @@ div#content blockquote {
   padding: 1em;
   border-radius: 0.5em;
   margin-top: 0.5em;
+}
+div#content p#error_desc {
+  text-align: center;
 }
 
 footer {

@@ -1,22 +1,32 @@
 <?php
+
 namespace KDS\MyBlog\Views;
 
-class MBVPost
+class MBVPost extends MBView
 {
-    public static string $title;
-    public static string $description;
-    public static string $text;
+    protected static string $date_added;
 
-    public static function generatePage(array $post)
+    public static function setInit(array $content)
     {
-        self::setOptions($post);
-        include_once 'templates/post_page.php';
+        self::$date_added = $content["date_added"];
+        $init = ["title" => $content["title"], "description" => $content["description"], "author" => $content["author"], "content" => $content["text"]];
+        self::setView("1.php", $init);
     }
 
-    public static function setOptions(array $options)
+    public static function generatePost(string $textpost)
     {
-        self::$title = $options["title"];
-        self::$description = $options["description"];
-        self::$text = $options["text"];
+        $post = json_decode($textpost, true);
+
+        foreach ($post as $item) {
+            $type = key($item);
+            echo self::sElem(["type" => $type, "value" => $item[$type]]);
+        }
     }
+
+    public static function getDateAdded() : string
+    {
+        return self::$date_added;
+    }
+
+
 }

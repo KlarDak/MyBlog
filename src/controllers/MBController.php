@@ -1,30 +1,38 @@
 <?php
 
 namespace KDS\MyBlog\Controllers;
-
-use KDS\MyBlog\Views\MBView;
+use KDS\MyBlog\Models\MBMPost;
+use KDS\MyBlog\Views\MBVError;
 
 class MBController
 {
-    public static function setRoute(array $args)
-    {
-        if ($args == null)
-            MBView::sendError(404);
+    public static string $address;
+    public static array $get_args;
 
-        switch ($args["addr"])
-        {
-            case "post":
-                MBPost::getPost($args["id"]);
-                break;
-            case "test":
-                include_once 'src/views/templates/test_page.php';
-                break;
-            case 404:
-                MBView::sendError(404);
-                break;
-            default:
-                header("Location: /404");
-                break;
-        }
+    public static function startRouter()
+    {
+        self::$get_args = $_GET ?? [];
+        self::$address = (self::getArg("addr")) ?? "*";
     }
+
+    public static function getArg(string $arg) : string|bool
+    {
+        return self::$get_args[$arg] ?? false;
+    }
+
+    public static function getAddress() : string
+    {
+        return self::$address ?? "";
+    }
+
+    public static function tryRoute(string $address, mixed $func)
+    {
+        return (self::getAddress() == $address) ? $func() : false;
+    }
+
+    public static function setDefault(mixed $func)
+    {
+        return (self::getAddress() == "*") ? $func : false;
+    }
+
 }
